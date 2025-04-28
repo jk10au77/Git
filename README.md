@@ -60,32 +60,20 @@ link: https://docs.github.com/en/get-started/git-basics/set-up-git
 
     Note: You can set user name to a single repository. To do so, first change the working directory where the repository resides. Then do the above steps.
     
+    ---------------------------------------------------------------
+    Setting email address for every repository on your computer.
+    ---------------------------------------------------------------
+        a. Open Git Bash
+        b. Set an email address in Git using the below command
+                $ git config --global user.email "YOUR_EMAIL"
+                example: git config --global user.email "tatiparthi.jaya@outlook.com"
     
-  
+    --------------------------
+    Checking your setting:
+    --------------------------
+    using the below command. check your Git setting
+            $ git config --list
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
---------------------------------------
-Setting up Git Command Line Version:
---------------------------------------
-
+    
+                
